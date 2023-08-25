@@ -11,7 +11,7 @@
 class BaseSignal {
     constructor(type) {
         if (this.constructor === BaseSignal) {
-            throw new Error("BaseSignal class cannot be instantiated directly.");
+            throw new Error("Error occured in BaseSignal");
         }
         this.type = type;
     }
